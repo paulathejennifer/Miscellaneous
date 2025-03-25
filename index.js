@@ -110,6 +110,37 @@ var charString = str.charAt(0)
 console.log(subString);
 console.log(charString);
 
+var findLength = str.length;
+console.log(`${str} ${str.length}`);
+
+var me = "Paula Chinyere";
+var whatLength = me.length;
+console.log(`${me}: length is ${me.length}`);
+
+var campus = "AkiraChix";
+var campusLength = campus.length;
+console.log(`${campus} text length is : ${campus.length}`);
+
+var vision = "To start an orphanage that nurtures children spiritually,physically and emotionally";
+console.log(`${vision} text length is : ${vision.length}`);
+
+//Escape Characters
+let school = "Kinyago Secondary Shools found in \"Dandora\" County wow \f Here are the students' pics";
+console.log(school);
+
+//Template Strings
+let attributes = `passionate, straight-forward, self-assertive`;
+let leaderAttr = "As a leader, you need to be "
+console.log(`${leaderAttr}${attributes}`);
+
+
+
+
+
+
+
+
+
 
 
 
