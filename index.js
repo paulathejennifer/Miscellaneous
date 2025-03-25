@@ -95,6 +95,18 @@ let items = 6;
 let productCost = `Total Money to be spent for stocking: ${(shoppingCost * items).toFixed(0)}`;
 console.log(productCost);
 
+let welcomeNote = "Welcome to AkiraChix capus in Karen,Nairobi where women are nurtured to become competent software developers"
+let textLength = welcomeNote.length
+console.log(textLength);
+
+var str = "Hello"
+var splitString = str.split("")
+var reverseString = splitString.reverse()
+var joinString = reverseString.join()
+console.log(joinString);
+
+
+
 
 
 
