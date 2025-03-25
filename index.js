@@ -99,6 +99,13 @@ let welcomeNote = "Welcome to AkiraChix capus in Karen,Nairobi where women are n
 let textLength = welcomeNote.length
 console.log(textLength);
 
+var str = "Hello"
+var splitString = str.split("")
+var reverseString = splitString.reverse()
+var joinString = reverseString.join()
+console.log(joinString);
+
+
 
 
 
