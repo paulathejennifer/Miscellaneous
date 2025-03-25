@@ -105,6 +105,15 @@ var reverseString = splitString.reverse()
 var joinString = reverseString.join()
 console.log(joinString);
 
+var subString = str.substr(1)
+var charString = str.charAt(0)
+console.log(subString);
+console.log(charString);
+
+
+
+
+
 
 
 
