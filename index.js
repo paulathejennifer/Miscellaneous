@@ -1,154 +1,104 @@
-// let  text = "Hello World!";
-// let extractWord = text.split("")[1].replace("!", "");
-// console.log(extractWord);
+// JavaScript Arrays
+const names = ["Jane", "Joy", "Moses"];
+names[0];
+console.log(names[0]);
 
-let text = "My name  is 'Jennifer'";
-let length = text.length;
+const ladies = ["Lovelace", "Adalab", "AnitaB"]
+let superlady = ladies[1];
+console.log(superlady);
+
+// Converting an array too a str
+const meals = ["Githeri", "Matoke", "Chapati"];
+let arr = meals.toString();
+console.log(arr);
+
+const people = ["Amuor", "Cynthia","Kevine", 60];
+const person = {firstName:"Amuor", lastName:"Mangar", age:20};
+console.log(person);
+
+const continents = ["Africa", "Asia,"["Kenya", "Tanzania"]]
+console.log(continents);
+
+//Array length
+const hair = ["Black","Brown","White"];
+let length = hair.length;
 console.log(length);
 
-let namey = "Jennifer " + "Chichi";
-console.log(namey);
+//Access first elemen1
+let myHairColor = hair[4];
+console.log(myHairColor);
 
-let x =String ("James");
-let y = new String ("James");
-console.log(x===y);
+//Last element
+let herHair = hair[hair.length -1];
+console.log(herHair);
 
-let q = "I love coding";
-let char = q.charCodeAt(2);
-console.log(char);
+//Looping Array elements//use forEach()
+let text = "<ul>";
+hair.forEach(myFunction);
+text += "</ul>";
 
-const brand = "W3schools";
-let letter = brand.at(-2);
-console.log(letter);
+function myFunction(value) {
+  text += "<li>" + value + "<li>";
+}
+console.log(text);
 
-a = "I am a girl";
-let extractedWord = a[7];
-console.log(extractedWord);
+let colors = ["Red","Green","Beige"];
+let text1 = "<ul>";
+colors.forEach(myfunct)
+text1 += "</ul>";
 
-let fruits = "Orange, Dates, Kiwi";
-let sliced = fruits.slice(8,13);
-console.log(sliced);
 
-let sweet = "Apple, Banana, Kiwi";
-let part = sweet.substring(7,13);
-console.log(part);
+function myfunct(value) {
+  text1 += "<li>" + value +"</li>"
 
-let madam = "Jennifer";
-let officialize = madam.charAt(0).toUpperCase() + madam.slice(1);
-console.log(officialize);
+}
+console.log(text1);
 
-let text1 = "Hi";
-let text2 = "JavaScript";
-let text3 = text1.concat(" " , text2);
-console.log(text3);
+//Pushing elements
+const fruits = ["Peach", "Cherry", "Plum", "Guava"];
+fruits.push("Grape");
+console.log(fruits);
 
-let intro = "Hello" + " " + "Everybody";
-console.log(intro);
+//Associative Arrays
+const friend =[];
+friend[0] = "Sharon";
+friend[1] = "Joy";
+friend[2] = "Pauline";
+friend[3] = "Josephine";
+friend[4] = 100;
+friend.length;
+console.log(friend)
 
-let boyfriend = " James ";
-let newCrush = boyfriend.trimEnd()
-console.log(newCrush);
+friend.push("Rooney");
+friend[0];
+console.log(friend[0]);
 
-let luckyNumber = "X";
-let padded = luckyNumber.padEnd(8,"x");
-console.log(padded);
+const points = [24, 4]
+let find = Array.isArray(points);
+console.log(find);
+let find2 = (points instanceof Array);
+console.log(find2);
+console.log(points);
 
-let myNumber = 5;
-let mypadText = myNumber.toString();
-let pading = mypadText.padEnd( 5,"3");
-console.log(pading);
+const myObj = {
+  name: "John",
+  age: 30,
+  cars: [
+    {name:"Ford", models:["Fiesta", "Focus", "Mustang"]},
+    {name:"BMW", models:["320", "X3", "X5"]},
+    {name:"Fiat", models:["500", "Panda"]}
+  ]
+}
+console.log(myObj);
 
-let location = "Please do jennee where 'jennee' is jennee";
- let locationn =location.search("jennee")
-console.log(locationn);
 
-let yearOfBirth = "2005";
-let YOB = yearOfBirth.match(/05/g);
-console.log(YOB);
 
-let mom = "pauline Wachira";
-let whereIsShe = mom.matchAll(/pau/gi);
-console.log(whereIsShe);
 
-let Me = "Paula The Jennifer";
-let findMe = Me.endsWith("Jennifer");
-console.log(findMe);
 
-let firstName = "Edith";
-let lastName = "Kandie";
-let program = "codehiveX";
-let welcome = `Let me take this opportunity to congratulate you ${firstName} ${lastName} for managing to join ${program} program!`
-console.log(welcome);
 
-let price = 100;
-let VAT = 0.25;
-let total = `Total: ${(price + VAT).toFixed(1)}`;
-console.log(total);
+ 
 
-let budget = 10000;
-let transactionCost = 2.25;
-let sum = `Total: ${(budget + transactionCost).toFixed(4)}`;
-console.log(sum);
 
-let shoppingCost = 50003;
-let items = 6;
-let productCost = `Total Money to be spent for stocking: ${(shoppingCost * items).toFixed(0)}`;
-console.log(productCost);
-
-let welcomeNote = "Welcome to AkiraChix capus in Karen,Nairobi where women are nurtured to become competent software developers"
-let textLength = welcomeNote.length
-console.log(textLength);
-
-var str = "Hello"
-var splitString = str.split("")
-var reverseString = splitString.reverse()
-var joinString = reverseString.join()
-console.log(joinString);
-
-var subString = str.substr(1)
-var charString = str.charAt(0)
-console.log(subString);
-console.log(charString);
-
-var findLength = str.length;
-console.log(`${str} ${str.length}`);
-
-var me = "Paula Chinyere";
-var whatLength = me.length;
-console.log(`${me}: length is ${me.length}`);
-
-var campus = "AkiraChix";
-var campusLength = campus.length;
-console.log(`${campus} text length is : ${campus.length}`);
-
-var vision = "To start an orphanage that nurtures children spiritually,physically and emotionally";
-console.log(`${vision} text length is : ${vision.length}`);
-
-//Escape Characters
-let school = "Kinyago Secondary Shools found in \"Dandora\" County wow \f Here are the students' pics";
-console.log(school);
-
-//Template Strings
-let attributes = `passionate, straight-forward, self-assertive`;
-let leaderAttr = "As a leader, you need to be "
-console.log(`${leaderAttr}${attributes}`);
-
-// math.js
-function add(a, b) {
-    return a + b;
-  }
-  function subtract(a, b) {
-    return a - b;
-  }
-  function multiply(a, b) {
-    return a * b;
-  }
-  function divide(a, b) {
-    if (b === 0) throw new Error('Cannot divide by zero');
-    return a / b;
-  }
-// console.log = { add, subtract, multiply, divide };
-console.log(add);
 
 
 
