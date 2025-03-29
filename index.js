@@ -89,7 +89,7 @@ const myObj = {
     {name:"Fiat", models:["500", "Panda"]}
   ]
 }
-console.log(myObj);
+console.log(myObjgit);
 
 
 

@@ -1,0 +1,122 @@
+*{
+    overflow-x: hidden;
+    width: 1005;
+}
+.container header{
+    text-align: center;
+    background-image: url(img/house\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 15cm;
+    color: aliceblue;
+    background-position: center;
+    /* background-color: bisque; */
+}
+.container h1{
+    font-size: 50px;
+}
+.container h2{
+    font-size: 60px;
+}
+.container h3{
+    font-size: 100px;
+}
+.container p{
+    font-size: 50px;
+}
+.container button{
+    width: 400px;
+    color: antiquewhite;
+    gap: 1cm;
+    font-size: 40px;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#welcome-title{
+    padding-top: 3cm;
+    font-size: 150px;
+    /* margin-right: 900px; */
+    font-weight: 200;
+    text-align: center;
+    border-bottom: 1px ridge rgb(150, 140, 140);
+}
+.welcome-aloft{
+    /* border-top: 2px ridge black; */
+    width: 100%;
+    margin-left: 200px;
+    padding-top: 1cm;
+    display: flex;
+    gap: 200px;
+}
+.kitchen{
+    margin-left: 600px;
+}
+#kitchen1{
+    width: 800px;
+    border-radius: 20px;
+}
+#kitchen2{
+    width: 800px;
+    border-radius: 50px;
+}
+.balcon p{
+    /* float: right; */
+    /* margin-bottom: 900px; */
+    font-size: 50px;
+    /* line-height: 3cm; */
+    /* border-radius: 50px; */
+}
+.balcon span{
+    font-weight: bolder;
+    /* color: yellow; */
+}
+.balcon img{
+    border-radius: 40px;
+    /* height: 1500px; */
+    height: 700px;
+    padding-right: 3cm;
+    margin-right: 00px;
+}
+#resize{
+    border-color: aqua;
+    width: 1400px;
+    height: 60px;
+}
+.customize {
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 900px;
+    margin-top: 50px;
+    /* padding-bottom: 2cm; */
+    /* line-height: 1cm; */
+    /* width: 400px; */
+}
+.customize h1{
+    /* text-align: center;
+     */
+     margin-left: 300px;
+}
+.customize p{
+    margin-left: 300px;
+}
+/* .custom form {
+    padding-bottom: 2cm;
+} */
+input[type=checkbox]{
+    transform: scale(2);
+    
+    /* word-spacing: 1cm; */
+}
+.customize button{
+    width: 600px;
+    height: 70px;
+    font-size: 30px;
+    margin-left: 200px;
+    border-radius: 10px;
+    margin-top: 50px;
+    /* padding: 20px; */
+    /* padding-top: 2cm; */
+    color: aliceblue;
+    background-color: blue;
+}
+
